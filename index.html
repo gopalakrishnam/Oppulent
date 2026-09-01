@@ -6,6 +6,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="logo.jpeg">
+  <link rel="apple-touch-icon" href="logo.jpeg">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,24 +18,8 @@
     <div class="nav-inner">
       <a href="#" class="nav-brand">
         <div class="brand-logo-wrap">
-          <img src="logo.jpeg" alt="Oppulent Global Logo" style="height: 48px; width: auto;">
-          
-            <circle cx="24" cy="24" r="22" fill="url(#logoGrad)" stroke="rgba(255,255,255,0.2)" stroke-width="1">
-            <path d="M24 10 L34 20 L24 16 L14 20 Z" fill="white" opacity="0.9">
-            <path d="M15 21 L24 17 L33 21 L33 32 Q24 38 15 32 Z" fill="white" opacity="0.7">
-            <circle cx="24" cy="26" r="4" fill="url(#logoGrad2)" opacity="0.9">
-            <defs>
-              <lineargradient id="logoGrad" x1="0" y1="0" x2="48" y2="48">
-                <stop stop-color="#3b82f6">
-                <stop offset="1" stop-color="#1d4ed8">
-              </stop></stop></lineargradient>
-              <lineargradient id="logoGrad2" x1="0" y1="0" x2="48" y2="48">
-                <stop stop-color="#60a5fa">
-                <stop offset="1" stop-color="#3b82f6">
-              </stop></stop></lineargradient>
-            </defs>
-          
-        </circle></path></path></circle></div>
+          <img src="logo.jpeg" alt="Oppulent Global Logo" style="height: 48px; width: auto; object-fit: contain;">
+        </div>
         <div class="brand-text">
           <div class="brand-name">OPPULENT</div>
           <div class="brand-sub">GLOBAL</div>
@@ -59,23 +46,8 @@
     <div class="mobile-menu-header">
       <a href="#" class="nav-brand mobile-brand">
         <div class="brand-logo-wrap">
-          <img src="logo.jpeg" alt="Oppulent Global Logo" style="height: 48px; width: auto;">
-            <circle cx="24" cy="24" r="22" fill="url(#mLogoGrad)" stroke="rgba(255,255,255,0.2)" stroke-width="1">
-            <path d="M24 10 L34 20 L24 16 L14 20 Z" fill="white" opacity="0.9">
-            <path d="M15 21 L24 17 L33 21 L33 32 Q24 38 15 32 Z" fill="white" opacity="0.7">
-            <circle cx="24" cy="26" r="4" fill="url(#mLogoGrad2)" opacity="0.9">
-            <defs>
-              <lineargradient id="mLogoGrad" x1="0" y1="0" x2="48" y2="48">
-                <stop stop-color="#3b82f6">
-                <stop offset="1" stop-color="#1d4ed8">
-              </stop></stop></lineargradient>
-              <lineargradient id="mLogoGrad2" x1="0" y1="0" x2="48" y2="48">
-                <stop stop-color="#60a5fa">
-                <stop offset="1" stop-color="#3b82f6">
-              </stop></stop></lineargradient>
-            </defs>
-          
-        </circle></path></path></circle></div>
+          <img src="logo.jpeg" alt="Oppulent Global Logo" style="height: 48px; width: auto; object-fit: contain;">
+        </div>
         <div class="brand-text">
           <div class="brand-name mobile-brand-name">OPPULENT</div>
           <div class="brand-sub mobile-brand-sub">GLOBAL</div>
@@ -231,75 +203,183 @@
       </div>
       <div class="destinations-grid">
         <div class="dest-card" data-dest="US">
-          <div class="dest-bar" style="background: linear-gradient(90deg,#1d4ed8,#1e3a8a)"></div>
-          <div class="dest-body">
-            <div class="dest-flag">🇺🇸</div>
-            <div>
-              <h3>United States</h3>
-              <span class="dest-count">US</span>
-            </div>
-            <p class="dest-code">150+ Universities</p>
-            <p class="dest-desc">Top-ranked research institutions</p>
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇺🇸</div>
+            <h3 class="dest-name">USA</h3>
+            <p class="dest-count-text">194+ Universities</p>
+            <p class="dest-desc-text">Top universities, diverse courses & global exposure.</p>
+            <span class="dest-link">View Details &rarr;</span>
           </div>
         </div>
         <div class="dest-card" data-dest="UK">
-          <div class="dest-bar" style="background: linear-gradient(90deg,#dc2626,#991b1b)"></div>
-          <div class="dest-body">
-            <div class="dest-flag">🇬🇧</div>
-            <div>
-              <h3>United Kingdom</h3>
-              <span class="dest-abbr">GB</span>
-            </div>
-            <p class="dest-code">80+ Universities</p>
-            <p class="dest-desc">World-class heritage campuses</p>
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇬🇧</div>
+            <h3 class="dest-name">UK</h3>
+            <p class="dest-count-text">64+ Universities</p>
+            <p class="dest-desc-text">World-renowned degrees with historic excellence.</p>
+            <span class="dest-link">View Details &rarr;</span>
           </div>
         </div>
         <div class="dest-card" data-dest="CA">
-          <div class="dest-bar" style="background: linear-gradient(90deg,#ef4444,#b91c1c)"></div>
-          <div class="dest-body">
-            <div class="dest-flag">🇨🇦</div>
-            <div>
-              <h3>Canada</h3>
-              <span class="dest-abbr">CA</span>
-            </div>
-            <p class="dest-code">60+ Universities</p>
-            <p class="dest-desc">Affordable &amp; welcoming</p>
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇨🇦</div>
+            <h3 class="dest-name">Canada</h3>
+            <p class="dest-count-text">102+ Universities</p>
+            <p class="dest-desc-text">Quality education with great PR opportunities.</p>
+            <span class="dest-link">View Details &rarr;</span>
           </div>
         </div>
         <div class="dest-card" data-dest="AU">
-          <div class="dest-bar" style="background: linear-gradient(90deg,#16a34a,#15803d)"></div>
-          <div class="dest-body">
-            <div class="dest-flag">🇦🇺</div>
-            <div>
-              <h3>Australia</h3>
-              <span class="dest-abbr">AU</span>
-            </div>
-            <p class="dest-code">40+ Universities</p>
-            <p class="dest-desc">Research &amp; innovation hub</p>
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇦🇺</div>
+            <h3 class="dest-name">Australia</h3>
+            <p class="dest-count-text">41+ Universities</p>
+            <p class="dest-desc-text">Vibrant lifestyle & globally recognized institutions.</p>
+            <span class="dest-link">View Details &rarr;</span>
           </div>
         </div>
         <div class="dest-card" data-dest="DE">
-          <div class="dest-bar" style="background: linear-gradient(90deg,#ca8a04,#a16207)"></div>
-          <div class="dest-body">
-            <div class="dest-flag">🇩🇪</div>
-            <div>
-              <h3>Germany</h3>
-              <span class="dest-abbr">DE</span>
-            </div>
-            <p class="dest-code">50+ Universities</p>
-            <p class="dest-desc">Tuition-free programs</p>
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇩🇪</div>
+            <h3 class="dest-name">Germany</h3>
+            <p class="dest-count-text">15+ Universities</p>
+            <p class="dest-desc-text">Affordable education with strong career prospects.</p>
+            <span class="dest-link">View Details &rarr;</span>
           </div>
         </div>
         <div class="dest-card" data-dest="NZ">
-          <div class="dest-bar" style="background: linear-gradient(90deg,#0284c7,#075985)"></div>
-          <div class="dest-body">
-            <div class="dest-flag">🇳🇿</div>
-            <div>
-              <h3>New Zealand</h3>
-              <span class="dest-abbr">NZ</span>
-            </div>
-            <p class="dest-code">20+ Universities</p>
-            <p class="dest-desc">Quality of life leader</p>
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇳🇿</div>
+            <h3 class="dest-name">New Zealand</h3>
+            <p class="dest-count-text">34+ Universities</p>
+            <p class="dest-desc-text">Quality of life leader with top-tier research.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="FR">
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇫🇷</div>
+            <h3 class="dest-name">France</h3>
+            <p class="dest-count-text">16+ Universities</p>
+            <p class="dest-desc-text">Rich culture, history & excellent higher education.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="IT">
+          <div class="dest-card-image" style="background-image: url('images/colosseum.jpg');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇮🇹</div>
+            <h3 class="dest-name">Italy</h3>
+            <p class="dest-count-text">9+ Universities</p>
+            <p class="dest-desc-text">Art, design & world-class historical universities.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="HU">
+          <div class="dest-card-image" style="background-image: url('images/budapest.jpg');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇭🇺</div>
+            <h3 class="dest-name">Hungary</h3>
+            <p class="dest-count-text">4+ Universities</p>
+            <p class="dest-desc-text">Affordable European education in a vibrant setting.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="CH">
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇨🇭</div>
+            <h3 class="dest-name">Switzerland</h3>
+            <p class="dest-count-text">12+ Universities</p>
+            <p class="dest-desc-text">Hospitality & business excellence in the Alps.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="LT">
+          <div class="dest-card-image" style="background-image: url('images/lithuania.png');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇱🇹</div>
+            <h3 class="dest-name">Lithuania</h3>
+            <p class="dest-count-text">1+ University</p>
+            <p class="dest-desc-text">Emerging European study hub with great potential.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="PL">
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇵🇱</div>
+            <h3 class="dest-name">Poland</h3>
+            <p class="dest-count-text">2+ Universities</p>
+            <p class="dest-desc-text">Quality education at low cost in Central Europe.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="MT">
+          <div class="dest-card-image" style="background-image: url('images/valletta.jpg');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇲🇹</div>
+            <h3 class="dest-name">Malta</h3>
+            <p class="dest-count-text">2+ Universities</p>
+            <p class="dest-desc-text">English-taught programs in the Mediterranean.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="SE">
+          <div class="dest-card-image" style="background-image: url('images/stockholm.jpg');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇸🇪</div>
+            <h3 class="dest-name">Sweden</h3>
+            <p class="dest-count-text">9+ Universities</p>
+            <p class="dest-desc-text">Innovation & sustainability focused education.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="NL">
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1558551649-e44c8f992010?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇳🇱</div>
+            <h3 class="dest-name">Netherlands</h3>
+            <p class="dest-count-text">10+ Universities</p>
+            <p class="dest-desc-text">Interactive learning with a strong global focus.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="AT">
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇦🇹</div>
+            <h3 class="dest-name">Austria</h3>
+            <p class="dest-count-text">2+ Universities</p>
+            <p class="dest-desc-text">Rich culture & high living standard for students.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="DK">
+          <div class="dest-card-image" style="background-image: url('https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?auto=format&fit=crop&w=600&q=80');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇩🇰</div>
+            <h3 class="dest-name">Denmark</h3>
+            <p class="dest-count-text">2+ Universities</p>
+            <p class="dest-desc-text">Problem-based learning in the happiest nation.</p>
+            <span class="dest-link">View Details &rarr;</span>
+          </div>
+        </div>
+        <div class="dest-card" data-dest="FI">
+          <div class="dest-card-image" style="background-image: url('images/finland.jpg');"></div>
+          <div class="dest-card-content">
+            <div class="dest-flag-circle">🇫🇮</div>
+            <h3 class="dest-name">Finland</h3>
+            <p class="dest-count-text">3+ Universities</p>
+            <p class="dest-desc-text">World's best education system & happiest country.</p>
+            <span class="dest-link">View Details &rarr;</span>
           </div>
         </div>
       </div>
@@ -520,10 +600,34 @@
         </div>
         <div class="testimonial-card">
           <div class="stars">★★★★★</div>
-          <p class="testimonial-text">"The counselors genuinely care. They helped me choose a program that perfectly aligns with my career in data science."</p>
+          <p class="testimonial-text">"The counselors genuinely care. They helped me choose a program that perfectly aligns with my career goals in data science."</p>
           <div class="testimonial-author">
             <div class="author-name">Anil Nuthalapati</div>
             <div class="author-univ">🎓 University of Hertfordshire, UK</div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"The entire application process was seamless! The team helped me secure a generous scholarship at ASU and coached me through every step of the US visa interview."</p>
+          <div class="testimonial-author">
+            <div class="author-name">Sneha Reddy</div>
+            <div class="author-univ">🎓 Arizona State University, USA</div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"I was overwhelmed with documentation and course choices, but Oppulent Global guided me to the right Master's program in Engineering. Got my Australian visa granted smoothly!"</p>
+          <div class="testimonial-author">
+            <div class="author-name">Rahul Varma</div>
+            <div class="author-univ">🎓 University of New South Wales, Australia</div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Thanks to their step-by-step guidance with documentation and APS procedures, studying in Germany went from a confusing process to reality. Truly dedicated team!"</p>
+          <div class="testimonial-author">
+            <div class="author-name">Meera Nair</div>
+            <div class="author-univ">🎓 SRH Berlin University, Germany</div>
           </div>
         </div>
       </div>
@@ -672,7 +776,7 @@
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>
           Chat on WhatsApp
         </a>
-        <a href="https://www.instagram.com/oppulentglobal/" target="_blank" rel="noopener noreferrer" class="cta-btn instagram">
+        <a href="https://www.instagram.com/sapientialtechnologypvtltd/?__pwa=1/" target="_blank" rel="noopener noreferrer" class="cta-btn instagram">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
           Follow on Instagram
         </a>
@@ -714,7 +818,7 @@
           <a href="https://wa.me/917075557518" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp-icon">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>
           </a>
-          <a href="https://www.instagram.com/oppulentglobal/" target="_blank" rel="noopener noreferrer" class="social-icon instagram-icon">
+          <a href="https://www.instagram.com/sapientialtechnologypvtltd/?__pwa=1/" target="_blank" rel="noopener noreferrer" class="social-icon instagram-icon">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
           </a>
           <a href="tel:+916304905039" class="social-icon phone-icon">
@@ -725,32 +829,32 @@
       <div class="footer-col">
         <h4>Services</h4>
         <ul>
-          <li><a href="#">Course Selection</a></li>
-          <li><a href="#">Visa Assistance</a></li>
-          <li><a href="#">SOP &amp; LOR</a></li>
-          <li><a href="#">Accommodation</a></li>
-          <li><a href="#">Career Counseling</a></li>
+          <li><a href="#services">Course Selection</a></li>
+          <li><a href="#services">Visa Assistance</a></li>
+          <li><a href="#services">SOP &amp; LOR</a></li>
+          <li><a href="#services">Accommodation</a></li>
+          <li><a href="#services">Career Counseling</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Destinations</h4>
         <ul>
-          <li><a href="#">USA</a></li>
-          <li><a href="#">UK</a></li>
-          <li><a href="#">Canada</a></li>
-          <li><a href="#">Australia</a></li>
-          <li><a href="#">Germany</a></li>
-          <li><a href="#">New Zealand</a></li>
+          <li><a href="javascript:void(0)" onclick="openDestModal('US')">USA</a></li>
+          <li><a href="javascript:void(0)" onclick="openDestModal('UK')">UK</a></li>
+          <li><a href="javascript:void(0)" onclick="openDestModal('CA')">Canada</a></li>
+          <li><a href="javascript:void(0)" onclick="openDestModal('AU')">Australia</a></li>
+          <li><a href="javascript:void(0)" onclick="openDestModal('DE')">Germany</a></li>
+          <li><a href="javascript:void(0)" onclick="openDestModal('NZ')">New Zealand</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Company</h4>
         <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Success Stories</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="javascript:void(0)">About Us</a></li>
+          <li><a href="javascript:void(0)">Our Team</a></li>
+          <li><a href="#testimonials">Success Stories</a></li>
+          <li><a href="javascript:void(0)">Blog</a></li>
+          <li><a href="#enquiry">Contact</a></li>
         </ul>
       </div>
     </div>
